@@ -9,9 +9,10 @@ app.use(express.json());
 
 //module import for router
 const calculation = require ('./routes/calculation.js');
+const funcionarios = require('./routes/funcionarios.js');
 
 app.use('/calculation' , calculation);
-
+app.use('/funcionarios', funcionarios);
 
 app.listen(port, err => {
     if (err) {
