@@ -1,1 +1,1 @@
-exercício usando pm2 de uma calculadora que realiza os cálculos no servidor
+exercício usando pm2 para em uma rota do front servir uma calculadora e realizar os cálculos no backend nas rotas específicas, e também servir no front um acesso ao banco de dados de funcionários com as rotas específicas no backend
